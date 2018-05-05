@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.inputField {
+    width: 300px;
+    padding: 3px 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    transition: 1s;
+}
+.inputField:hover{ 
+    border: 1px solid black;
+    
+}
+::webkit-inpue-placeholder{
+    color: red;
+}
+.form{
+    width: 550px;
+    background-color: #535ff3;
+    float: right;
+    padding-left: 12px;
+    margin-top: 6px;
+    padding-top: 12px;
+    border: 2px solid green;
+}
